@@ -1,0 +1,28 @@
+:root {
+    --header: #F8F8F8;
+    --bkg: #F8F8F8;
+    --title: #121212;
+    --text: #2e2e2e;
+    --primaria: #1A73E8;
+    --primaria2: #1660c2;
+}
+
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+
+    background-color: var(--bkg);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}

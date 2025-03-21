@@ -1,0 +1,27 @@
+{
+    "header.nav.home": "Home",
+    "header.nav.about": "Sobre",
+    "header.nav.projects": "Projetos",
+    "header.nav.habilities": "Habilidades",
+    "header.button.contact": "Contato",
+    "about.title": "Sobre",
+    "about.p1": "Sou Deivyson Ricardo Silva dos Santos, desenvolvedor de software, atualmente cursando tecnólogo em Sistemas para Internet na UNICAP, e concluindo curso técnico em Desenvolvimento de Sistemas na Grau Técnico.",
+    "about.p2": "Trabalho com front-end e back-end, criando aplicações web / mobile responsivas e escaláveis usando ReactJs, NodeJs, JavaScript, TypeScript, MySQL, MongoDB, Python, Java e C#.",
+    "about.p3": "Procuro sempre aprender tecnologias novas, em busca de solucionar problemas do cotidiano de forma tecnológica e acessível.",
+    "about.p4": "Estou sempre aberto a novas oportunidades e colaborações. Sinta-se à vontade para me contatar pelas minhas redes sociais ou pelo meu e-mail, disponível na seção de Contato.",
+    "projects.title": "Projetos",
+
+    "projects.p1.title": "Site Combogó",
+    "projects.p1.descricao": "LandingPage de apresentação ao Combogó",
+    "projects.p2.title": "Shomo",
+    "projects.p2.descricao": "Aplicativo auxiliar de leitura",
+    "projects.p3.title": "PhyEdu - Ideação",
+    "projects.p3.descricao": "Ideação de Aplicativo de Ensino",
+
+    "habilities.title": "Habilidades",
+    "habilities.basic": "Básico",
+    "habilities.intermediary": "Intermediário",
+    "habilities.advanced": "Avançado"
+
+    
+}
