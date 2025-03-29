@@ -1,25 +1,21 @@
 import React from "react"
-import { useTranslation } from "react-i18next";
-import "./i18n";
+
+import { Idioma } from "./components/Idioma";
 
 import { Header } from "./components/Header";
+import { Home } from "./sections/Home";
+import { Sobre } from "./sections/Sobre";
+import { Projetos } from "./sections/Projetos";
 
 function App() {
-  const {t, i18n} = useTranslation();
-
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-  }
 
   return (
     <main>
     <Header/>
-      <button
-        onClick={()=> changeLanguage('en')}
-      >En</button>
-      <button
-        onClick={()=> changeLanguage('pt')}
-      >Pt</button>
+    <Home/>
+    <Sobre/>
+    <Projetos/>
+    <Idioma/>
     </main>
   )
 }

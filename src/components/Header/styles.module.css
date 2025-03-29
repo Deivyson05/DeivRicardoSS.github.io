@@ -8,6 +8,11 @@
     background-color: var(--header);
     box-shadow: 0px 4px 4px #0000001f;
 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
     & img {
         height: 4rem;
     }
@@ -15,6 +20,9 @@
     & nav {
         display: flex;
         gap: 1rem;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
 
         & a {
             text-decoration: none;

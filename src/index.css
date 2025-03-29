@@ -8,16 +8,16 @@
 }
 
 * {
-    border: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Sen", sans-serif;
 }
 
 body {
     display: flex;
     flex-direction: column;
     padding: 0;
-    margin: 0;
 
     background-color: var(--bkg);
 }
