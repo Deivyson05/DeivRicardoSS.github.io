@@ -2,6 +2,7 @@ import styles from "./styles.module.css";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
+import { Game } from "../../components/Game";
 
 export function Sobre() {
     const {t, i18n} = useTranslation();
@@ -16,9 +17,7 @@ export function Sobre() {
                 <p>{t('about.p4')}</p>
             </div>
 
-            <div className={styles.game}>
-
-            </div>
+            <Game/>
         </section>
     );
 }
