@@ -34,14 +34,9 @@
         }
     }
 
-    & .btn {
-        text-decoration: none;
-        background-color: var(--primaria);
-        color: white;
-        padding: 1rem;
-        border-radius: 8px;
-
-        box-shadow: 0px 6px 0px var(--primaria2);
-        
+    & button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
     }
 }

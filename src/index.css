@@ -1,10 +1,23 @@
 :root {
-    --header: #F8F8F8;
-    --bkg: #F8F8F8;
-    --title: #121212;
-    --text: #2e2e2e;
+    --header: #E2E8F0;
+    --bkg: #F8FAFC;
+    --title: #020618;
+    --text: #1D293D;
     --primaria: #1A73E8;
     --primaria2: #1250a0;
+}
+
+.dark-theme {
+    --header: #0F172B;
+    --bkg: #020618;
+    --title: #F8FAFC;
+    --text: #E2E8F0;
+    --primaria: #1A73E8;
+    --primaria2: #1250a0;
+}
+
+main {
+    background-color: var(--bkg);
 }
 
 * {
@@ -12,6 +25,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Sen", sans-serif;
+    color: var(--text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--title);
 }
 
 body {
