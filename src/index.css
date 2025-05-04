@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
 :root {
     --header: #E2E8F0;
     --bkg: #F8FAFC;
@@ -7,7 +9,7 @@
     --primaria2: #1250a0;
 }
 
-.dark-theme {
+.dark {
     --header: #0F172B;
     --bkg: #020618;
     --title: #F8FAFC;
@@ -26,6 +28,7 @@ main {
     box-sizing: border-box;
     font-family: "Sen", sans-serif;
     color: var(--text);
+    transition: background-color 0.2s ease-in-out;
 }
 
 h1, h2, h3, h4, h5, h6 {

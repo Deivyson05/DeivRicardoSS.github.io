@@ -5,15 +5,11 @@ import { getData } from "./core/lStorage";
 //import './App.css'
 
 function App() {
-  const [theme, setTheme] = useState(getData("theme") || "light");
 
   return (
-    <main className={theme}>
-      <BrowserRouter>
+    <BrowserRouter>
         <Router/>
       </BrowserRouter>
-      
-    </main>
   )
 }
 
