@@ -3,6 +3,8 @@ import { Header } from "../../components/Header";
 import { Home } from "../../sections/Home";
 import { Sobre } from "../../sections/About";
 import { Projetos } from "../../sections/Projetos";
+import { Footer } from "../../components/Footer";
+import { Habilities } from "../../sections/Habilities";
 
 export function HomePage() {
     
@@ -13,6 +15,8 @@ export function HomePage() {
             <Home />
             <Sobre />
             <Projetos />
+            <Habilities />
+            <Footer />
         </main>
     )
 }

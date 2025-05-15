@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    width: 100%;
+    background-color: var(--bkg);
+    height: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+
+    div {
+        background-color: var(--primaria);
+        height: 100%;
+    }
+}

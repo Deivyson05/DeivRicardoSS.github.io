@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 4rem;
+    background-color: var(--footer);
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+
+            h1 {
+                color: var(--title);
+                font-weight: 500;
+            }
+
+            span {
+                color: var(--title);
+                font-weight: 200;
+            }
+        }
+
+        .links {
+            display: flex;
+            gap: 5rem;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                gap: 0.8rem;
+
+                strong {
+                    font-weight: 200;
+                    color: var(--text);
+                    text-transform: uppercase;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: var(--title);
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        span {
+            color: var(--title);
+            font-weight: 200;
+        }
+
+        div {
+            display: flex;
+            gap: 1rem;
+        }
+    }
+}

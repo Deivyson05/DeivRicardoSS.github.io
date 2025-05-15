@@ -4,15 +4,17 @@
     --header: #E2E8F0;
     --bkg: #F8FAFC;
     --title: #020618;
+    --footer: #5a78a1;
     --text: #1D293D;
     --primaria: #1A73E8;
     --primaria2: #1250a0;
 }
 
 .dark {
-    --header: #0F172B;
+    --header: #1D293D;
     --bkg: #020618;
     --title: #F8FAFC;
+    --footer: #0F172B;
     --text: #E2E8F0;
     --primaria: #1A73E8;
     --primaria2: #1250a0;
