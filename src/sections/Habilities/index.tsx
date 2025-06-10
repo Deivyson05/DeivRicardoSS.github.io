@@ -3,7 +3,7 @@ import { ProgressBar } from "../../components/ProgressBar";
 
 export function Habilities() {
     return (
-        <section className={styles.container}>
+        <section className={styles.container} id="habilities">
             <h2>Habilidades</h2>
 
             <div className={styles.habilities}>

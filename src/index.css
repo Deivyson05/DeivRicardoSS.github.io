@@ -3,21 +3,27 @@
 :root {
     --header: #E2E8F0;
     --bkg: #F8FAFC;
+    --bkg2: #e7e7e7;
+    --bkg3: #cacaca;
     --title: #020618;
     --footer: #5a78a1;
     --text: #1D293D;
     --primaria: #1A73E8;
     --primaria2: #1250a0;
+    --divisao:#adbcd1;
 }
 
 .dark {
     --header: #1D293D;
     --bkg: #020618;
+    --bkg2: #05103f;
+    --bkg3: #050d30;
     --title: #F8FAFC;
     --footer: #0F172B;
     --text: #E2E8F0;
     --primaria: #1A73E8;
     --primaria2: #1250a0;
+    --divisao:rgb(50, 63, 80);
 }
 
 main {
@@ -29,12 +35,19 @@ main {
     padding: 0;
     box-sizing: border-box;
     font-family: "Sen", sans-serif;
-    color: var(--text);
     transition: background-color 0.2s ease-in-out;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--title);
+}
+
+p, span {
+    color: var(--text);
 }
 
 body {

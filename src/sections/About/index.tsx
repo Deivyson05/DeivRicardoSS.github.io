@@ -5,7 +5,7 @@ export function Sobre() {
     
 
     return (
-        <section className={styles.container}>
+        <section className={styles.container} id="about">
             <div className={styles.context}>
                 <h2>Sobre Mim</h2>
                 <p>Sou Deivyson Ricardo Silva dos Santos, desenvolvedor de software, atualmente cursando tecnólogo em Sistemas para Internet na UNICAP, e concluindo curso técnico em Desenvolvimento de Sistemas na Grau Técnico.</p>

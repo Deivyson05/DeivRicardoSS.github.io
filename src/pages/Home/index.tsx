@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 import { Header } from "../../components/Header";
 import { Home } from "../../sections/Home";
 import { Sobre } from "../../sections/About";
-import { Projetos } from "../../sections/Projetos";
+import { Projects } from "../../sections/Projects";
 import { Footer } from "../../components/Footer";
 import { Habilities } from "../../sections/Habilities";
 
@@ -14,7 +14,7 @@ export function HomePage() {
             <Header />
             <Home />
             <Sobre />
-            <Projetos />
+            <Projects />
             <Habilities />
             <Footer />
         </main>

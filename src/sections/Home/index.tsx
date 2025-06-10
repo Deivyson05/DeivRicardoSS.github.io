@@ -3,7 +3,7 @@ import Image from "../../assets/cara.png";
 
 export function Home() {
     return (
-        <section className={styles.container}>
+        <section className={styles.container} id="home">
             <img src={Image} alt="" />
             <div className={styles.content}>
                 <h1>Deivyson Santos</h1>

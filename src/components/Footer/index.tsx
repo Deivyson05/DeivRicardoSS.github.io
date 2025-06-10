@@ -3,7 +3,7 @@ import { InstagramLogo, TelegramLogo, LinkedinLogo, GithubLogo } from "@phosphor
 
 export function Footer() {
     return (
-        <footer className={styles.container}>
+        <footer className={styles.container} id="contact">
             <header>
                 <div className={styles.content}>
                     <h1>Deivyson Santos</h1>

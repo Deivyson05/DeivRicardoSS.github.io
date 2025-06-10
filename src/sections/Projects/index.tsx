@@ -5,6 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Navigation, Pagination } from "swiper/modules";
+import { useNavigate } from "react-router-dom";
 
 import projCombogoImg from "../../assets/proj-combogo.png";
 import projShlomoImg from "../../assets/proj-shlomo.png";
@@ -19,10 +20,10 @@ import projJogodavelhaImg from "../../assets/proj-jogodavelha.png";
 
 
 
-export function Projetos() {
-
+export function Projects() {
+    const navigate = useNavigate();
     return (
-        <section className={styles.container}>
+        <section className={styles.container} id="projects">
             <h2>Projetos</h2>
             <div className={styles.swiper}>
                 <h3>Envolvendo Código</h3>
@@ -35,31 +36,31 @@ export function Projetos() {
                     slidesPerView={3}
                 >
                     <SwiperSlide>
-                        <article>
+                        <article onClick={() => navigate("/details/combogo")}>
                             <img src={projCombogoImg} alt="Projeto" />
                             <h4>LandingPage Combogó</h4>
                             <p>LandingPage de apresentação da Combogó</p>
                         </article>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <article>
+                        <article onClick={() => navigate("/details/shlomo")}>
                             <img src={projShlomoImg} alt="Projeto" />
                             <h4>Shlomo</h4>
                             <p>Aplicativo para gerenciamento de leitura</p>
                         </article>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <article>
+                        <article onClick={() => navigate("/details/playerdemusica")}>
                             <img src={projPlayerdemusicaImg} alt="Projeto" />
                             <h4>Player de música básico</h4>
                             <p>Player de música simples feito com JavaScript</p>
                         </article>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <article>
+                        <article onClick={() => navigate("/details/adotai")}>
                             <img src="https://placehold.co/600x400" alt="Projeto" />
-                            <h4>Em breve</h4>
-                            <p>Descricão do projeto</p>
+                            <h4>Adotaí</h4>
+                            <p>Aplictivo de match para pets</p>
                         </article>
                     </SwiperSlide>
                 </Swiper>
@@ -76,14 +77,14 @@ export function Projetos() {
                     slidesPerView={3}
                 >
                     <SwiperSlide>
-                        <article>
+                        <article onClick={() => navigate("/details/teko")}>
                             <img src={projTekoImg} alt="Projeto" />
                             <h4>Teko</h4>
                             <p>Ideação de plataforma de jogos culturais</p>
                         </article>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <article>
+                        <article onClick={() => navigate("/details/phyedu")}>
                             <img src={projPhyeduImg} alt="Projeto" />
                             <h4>PhyEdu</h4>
                             <p>Ideação de plataforma de ensino</p>
@@ -104,28 +105,28 @@ export function Projetos() {
                     slidesPerView={3}
                 >
                     <SwiperSlide>
-                        <article>
+                        <article onClick={() => navigate("/details/cinconoches")}>
                             <img src="https://placehold.co/600x400" alt="Projeto" />
                             <h4>Cinco Noches Con Alfredo</h4>
-                            <p>Fangame de Fnaf deito com JavaScript</p>
+                            <p>Fangame de Fnaf feito com JavaScript</p>
                         </article>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <article>
+                        <article onClick={() => navigate("/details/jogodamemoria")}>
                             <img src={projJogodamemoriaImg} alt="Projeto" />
                             <h4>Jogo da memória</h4>
                             <p>Jodo de memória feito com JavaScript</p>
                         </article>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <article>
+                        <article onClick={() => navigate("/details/pianovirtual")}>
                             <img src={projPianovirtualImg} alt="Projeto" />
                             <h4>Piano virtual</h4>
                             <p>Piano virtual feito com JavaScript</p>
                         </article>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <article>
+                        <article onClick={() => navigate("/details/jogodavelha")}>
                             <img src={projJogodavelhaImg} alt="Projeto" />
                             <h4>Jogo da velha</h4>
                             <p>Jogo da velha simples feito com C#</p>
