@@ -1,5 +1,5 @@
 interface Props {
-    technologies: [string];
+    technologies: string[];
 }
 import styles from "./styles.module.css";
 

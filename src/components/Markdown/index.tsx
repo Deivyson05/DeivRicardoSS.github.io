@@ -7,7 +7,12 @@ import remarkGfm from "remark-gfm";
 
 import styles from "./styles.module.css";
 
-export function Markdown({ owner, repo }: { owner: string; repo: string }) {
+interface Props {
+    owner: string;
+    repo: string;
+}
+
+export function Markdown({ owner, repo }: Props) {
     const [readme, setReadme] = useState("");
 
     useEffect(() => {

@@ -36,21 +36,21 @@ export function Projects() {
                     slidesPerView={3}
                 >
                     <SwiperSlide>
-                        <article onClick={() => navigate("/details/combogo")}>
+                        <article onClick={() => navigate("/details/combogo-unicap")}>
                             <img src={projCombogoImg} alt="Projeto" />
                             <h4>LandingPage Combogó</h4>
                             <p>LandingPage de apresentação da Combogó</p>
                         </article>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <article onClick={() => navigate("/details/shlomo")}>
+                        <article onClick={() => navigate("/details/guia-de-leitura")}>
                             <img src={projShlomoImg} alt="Projeto" />
                             <h4>Shlomo</h4>
                             <p>Aplicativo para gerenciamento de leitura</p>
                         </article>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <article onClick={() => navigate("/details/playerdemusica")}>
+                        <article onClick={() => navigate("/details/player_de_musica_basico")}>
                             <img src={projPlayerdemusicaImg} alt="Projeto" />
                             <h4>Player de música básico</h4>
                             <p>Player de música simples feito com JavaScript</p>

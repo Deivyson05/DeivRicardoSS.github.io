@@ -18,7 +18,7 @@ export function Header({ page = "home" }: { page?: string }) {
         setTheme(theme === "light" ? "dark" : "light");
     }
 
-    const handleNavigation = (id) => {
+    const handleNavigation = (id: string) => {
         if (page === "home") {
             window.location.href = `#${id}`;
         } else {

@@ -3,10 +3,10 @@ import { Technologies } from "../../components/Technologies";
 import styles from "./styles.module.css";
 import { GithubLogo, Browser } from "@phosphor-icons/react";
 import { Markdown } from "../../components/Markdown";
-
+import { useParams } from "react-router-dom";
 
 export function Details() {
-
+    const { id } = useParams<{ id: string }>();
 
     return (
         <main className={styles.container}>
@@ -14,7 +14,7 @@ export function Details() {
 
             <Markdown 
                 owner="DeivRicardoSS"
-                repo="DeivRicardoSS"
+                repo={id ?? ""}
             />
 
             <div className={styles.info}>
