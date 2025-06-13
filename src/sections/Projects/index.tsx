@@ -18,10 +18,13 @@ import projJogodamemoriaImg from "../../assets/proj-jogodamemoria.png";
 import projPianovirtualImg from "../../assets/proj-pianovirtual.png";
 import projJogodavelhaImg from "../../assets/proj-jogodavelha.png";
 
+import useWindowSize from "../../components/useWindowSize";
+
 
 
 export function Projects() {
     const navigate = useNavigate();
+    const { width } = useWindowSize();
     return (
         <section className={styles.container} id="projects">
             <h2>Projetos</h2>
@@ -33,7 +36,7 @@ export function Projects() {
                     pagination
                     style={{ width: '100%', height: '' }}
                     spaceBetween={0}
-                    slidesPerView={3}
+                    slidesPerView={width >= 900? 3 : (width <= 580? 1 : 2) }
                 >
                     <SwiperSlide>
                         <article onClick={() => navigate("/details/combogo-unicap")}>
@@ -74,7 +77,7 @@ export function Projects() {
                     pagination
                     style={{ width: '100%', height: '' }}
                     spaceBetween={0}
-                    slidesPerView={3}
+                    slidesPerView={width >= 900? 3 : (width <= 580? 1 : 2) }
                 >
                     <SwiperSlide>
                         <article onClick={() => navigate("/details/teko")}>
@@ -102,7 +105,7 @@ export function Projects() {
                     pagination
                     style={{ width: '100%', height: '' }}
                     spaceBetween={0}
-                    slidesPerView={3}
+                    slidesPerView={width >= 900? 3 : (width <= 580? 1 : 2) }
                 >
                     <SwiperSlide>
                         <article onClick={() => navigate("/details/cinconoches")}>
@@ -112,21 +115,21 @@ export function Projects() {
                         </article>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <article onClick={() => navigate("/details/jogodamemoria")}>
+                        <article onClick={() => navigate("/details/jogoDaMemoria")}>
                             <img src={projJogodamemoriaImg} alt="Projeto" />
                             <h4>Jogo da memória</h4>
                             <p>Jodo de memória feito com JavaScript</p>
                         </article>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <article onClick={() => navigate("/details/pianovirtual")}>
+                        <article onClick={() => navigate("/details/pianoVirtual")}>
                             <img src={projPianovirtualImg} alt="Projeto" />
                             <h4>Piano virtual</h4>
                             <p>Piano virtual feito com JavaScript</p>
                         </article>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <article onClick={() => navigate("/details/jogodavelha")}>
+                        <article onClick={() => navigate("/details/tic-tac-toe_cmd-edition")}>
                             <img src={projJogodavelhaImg} alt="Projeto" />
                             <h4>Jogo da velha</h4>
                             <p>Jogo da velha simples feito com C#</p>

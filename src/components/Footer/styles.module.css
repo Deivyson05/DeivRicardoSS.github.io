@@ -63,6 +63,27 @@
         div {
             display: flex;
             gap: 1rem;
+            a {
+                color: white;
+                transition: 0.3s ease;
+            }
+            a:hover {
+                transform: translateY(-8px);
+            }
         }
+    }
+}
+
+@media (max-width: 690px) {
+    .container header {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 690px) {
+    .container header .links {
+        flex-direction: column;
+        gap: 2rem;
     }
 }

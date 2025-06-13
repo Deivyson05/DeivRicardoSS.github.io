@@ -51,3 +51,9 @@
         transition: 0.3s ease;
     }
 }
+
+@media (max-width: 500px) {
+    .container {
+        padding: 2rem;
+    }
+}
