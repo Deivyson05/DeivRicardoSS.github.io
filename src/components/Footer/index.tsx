@@ -13,9 +13,9 @@ export function Footer() {
                 <div className={styles.links}>
                     <div>
                         <strong>Currículo</strong>
-                        <a href="#">Lattes</a>
-                        <a href="#">Linkedin</a>
-                        <a href="#">GitHub</a>
+                        <a href="http://lattes.cnpq.br/8928054313232460" target="_blank">Lattes</a>
+                        <a href="https://www.linkedin.com/in/deivyson-ricardo-33354425b?originalSubdomain=br" target="_blank">Linkedin</a>
+                        <a href="https://github.com/DeivRicardoSS" target="_blank">GitHub</a>
                     </div>
 
                     <div>
@@ -28,16 +28,16 @@ export function Footer() {
             <footer>
                 <span>© 2025 Deivyson Santos</span>
                 <div>
-                    <a href="#">
+                    <a href="https://www.instagram.com/deivs_05/" target="_blank">
                         <InstagramLogo size={30}/>
                     </a>
-                    <a href="#">
+                    <a href="https://t.me/DeivRicardoSS" target="_blank">
                         <TelegramLogo size={30}/>
                     </a>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/deivyson-ricardo-33354425b?originalSubdomain=br" target="_blank">
                         <LinkedinLogo size={30}/>
                     </a>
-                    <a href="#">
+                    <a href="https://github.com/DeivRicardoSS" target="_blank">
                         <GithubLogo size={30}/>
                     </a>
                 </div>
