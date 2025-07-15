@@ -5,6 +5,7 @@ import { Sobre } from "../../sections/About";
 import { Projects } from "../../sections/Projects";
 import { Footer } from "../../components/Footer";
 import { Habilities } from "../../sections/Habilities";
+import { MobileMenu } from "../../components/MobileMenu";
 
 export function HomePage() {
     
@@ -17,6 +18,7 @@ export function HomePage() {
             <Projects />
             <Habilities />
             <Footer />
+            <MobileMenu />
         </main>
     )
 }
