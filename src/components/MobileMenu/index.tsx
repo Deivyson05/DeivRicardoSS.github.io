@@ -1,4 +1,4 @@
-import { List, House, User, Kanban, X, Phone } from "@phosphor-icons/react";
+import { List, House, User, Kanban, X, Phone, Hammer } from "@phosphor-icons/react";
 import { useState } from "react";
 import styles from "./styles.module.css";
 
@@ -27,10 +27,15 @@ export function MobileMenu() {
                 <Kanban size={32} weight="regular" />
                 
             </a>
+            <a href="#habilities" style={{ marginBottom: `${margin}rem`, opacity: `${opacity}`}}>
+                <Hammer size={32} weight="regular" />
+                
+            </a>
             <a href="#contact" style={{ marginBottom: `${margin}rem`, opacity: `${opacity}`}}>
                 <Phone size={32} weight="regular" />
                 
             </a>
+            
             <button onClick={handleOpen} >
                 {
                     isOpen
